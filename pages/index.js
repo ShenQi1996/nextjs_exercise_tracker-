@@ -22,8 +22,8 @@ export default function Home() {
         <Col sm={12} className="text-center">
           <h1 className={classes.home_text}>Let exercises easier </h1>
         </Col>
-        <Col>
-          <Link href="/">Get Start it</Link>
+        <Col sm={12} className="text-center">
+          <Link href="/signup-login">Get Start it</Link>
         </Col>
       </Row>
     </Container>
